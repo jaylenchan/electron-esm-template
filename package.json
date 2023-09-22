@@ -2,16 +2,22 @@
     "name": "electron-demo",
     "version": "1.0.0",
     "type": "module",
+    "main": "./src/main.cjs",
     "exports": {
         "import": "./src/main.cjs",
         "require": "./src/main.js"
     },
     "license": "MIT",
     "scripts": {
-        "dev": "electron ./src/main.cjs"
+        "dev": "electron ./src/main.cjs",
+        "build": "electron-builder --config electron-builder.toml"
     },
     "dependencies": {
-        "electron": "^23.1.0",
         "esm": "^3.2.25"
+    },
+    "devDependencies": {
+        "electron": "^25.8.2",
+        "electron-builder": "23.0.2",
+        "toml": "^3.0.0"
     }
 }

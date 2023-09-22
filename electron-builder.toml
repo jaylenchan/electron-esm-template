@@ -1,0 +1,17 @@
+productName = "Electron-Demo"
+
+appId = "com.electron.demo.mac"
+
+copyright = "Copyright © 2023-2032 GuangZhou Electron-Demo"
+
+files = ["src/**/*"]
+
+asar = false
+
+[electronDownload]
+platform = "darwin"
+arch = "x64"
+cache = ".yarn"
+
+[directories]
+output = ".build"
