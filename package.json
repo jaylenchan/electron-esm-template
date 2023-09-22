@@ -2,10 +2,10 @@
     "name": "electron-demo",
     "version": "1.0.0",
     "type": "module",
-    "main": "./src/main.cjs",
+    "main":"./src/main.cjs",
     "exports": {
-        "import": "./src/main.cjs",
-        "require": "./src/main.js"
+        "import": "./src/main.js",
+        "require": "./src/main.cjs"
     },
     "license": "MIT",
     "scripts": {
