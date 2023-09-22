@@ -1,0 +1,17 @@
+{
+    "name": "electron-demo",
+    "version": "1.0.0",
+    "type": "module",
+    "exports": {
+        "import": "./src/main.cjs",
+        "require": "./src/main.js"
+    },
+    "license": "MIT",
+    "scripts": {
+        "dev": "electron ./src/main.cjs"
+    },
+    "dependencies": {
+        "electron": "^23.1.0",
+        "esm": "^3.2.25"
+    }
+}
