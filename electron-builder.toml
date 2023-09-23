@@ -1,8 +1,8 @@
-productName = "Electron-Demo"
+productName = "electron-esm-template"
 
 appId = "com.electron.demo.mac"
 
-copyright = "Copyright © 2023-2032 GuangZhou Electron-Demo"
+copyright = "Copyright © 2023-2032 GuangZhou electron-esm-template"
 
 files = ["src/**/*"]
 

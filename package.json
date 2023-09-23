@@ -1,5 +1,5 @@
 {
-    "name": "electron-demo",
+    "name": "electron-esm-template",
     "version": "1.0.0",
     "type": "module",
     "main": "./src/main.cjs",
@@ -7,6 +7,8 @@
         "import": "./src/main.js",
         "require": "./src/main.cjs"
     },
+    "description": "electron-esm-template",
+    "author": "jaylenchan",
     "license": "MIT",
     "scripts": {
         "dev": "electron ./src/main.cjs",
