@@ -11,7 +11,13 @@ const createWindow = () => {
         height: 600
     });
 
-    win.loadFile(path.resolve(__dirname, 'index.html'));
+    win.loadURL(
+        url.format({
+            pathname: path.join(__dirname, 'index.html'),
+            protocol: 'file:',
+            slashes: true
+        })
+    );
 };
 
 app.whenReady().then(() => {
