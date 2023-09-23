@@ -232,10 +232,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.26":
-  version: 16.18.53
-  resolution: "@types/node@npm:16.18.53::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-16.18.53.tgz"
-  checksum: 26c05cde59664360c22e0dda70776ca6f1b35f0b94e4f84d2c21e2afa2e69ac3a2c99bbb57b43405f81df1b2598f6d707ccc7c4c31865f90e45c4625d8400518
+"@types/node@npm:^18.11.18":
+  version: 18.17.18
+  resolution: "@types/node@npm:18.17.18::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-18.17.18.tgz"
+  checksum: 59cbd906363d37017fe9ba0c08c1446e440d4d977459609c5f90b8fb7eb41f273ce8af30c5a5b5d599d7de934c1b3702bc9fc27caf8d2270e5cdb659c5232991
   languageName: node
   linkType: hard
 
@@ -1190,7 +1190,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "electron-demo@workspace:."
   dependencies:
-    electron: ^23.1.0
+    electron: ^25.8.2
     electron-builder: 23.0.2
     esm: ^3.2.25
     toml: ^3.0.0
@@ -1229,16 +1229,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^23.1.0":
-  version: 23.3.13
-  resolution: "electron@npm:23.3.13::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron%2F-%2Felectron-23.3.13.tgz"
+"electron@npm:^25.8.2":
+  version: 25.8.2
+  resolution: "electron@npm:25.8.2::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron%2F-%2Felectron-25.8.2.tgz"
   dependencies:
     "@electron/get": ^2.0.0
-    "@types/node": ^16.11.26
+    "@types/node": ^18.11.18
     extract-zip: ^2.0.1
   bin:
     electron: cli.js
-  checksum: ada215540c2482471aa30293fe415da104e090a28d1fde6e720584bc28a6855a864d7cb977c60d560d0dc26d93c9f52febe33501b764bac21cf4725a299fa886
+  checksum: 41e5654412efa4072f08414c2fee74662e2bdf5c879d2fa640be89dae0cdd82898bfd8789b7c4b98d2054e37b9de2154638c197e070ec0e4ff7985127387804c
   languageName: node
   linkType: hard
 
